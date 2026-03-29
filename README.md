@@ -5,9 +5,11 @@ on the Pima Indians Diabetes Dataset.
 
 ## 📊 Project Overview
 Compared three classification models to predict diabetes diagnosis:
-- **Random Forest** — 76.56% accuracy
-- **XGBoost (default)** — ~77% accuracy  
-- **XGBoost (tuned with GridSearchCV)** — 78.12% accuracy ✅ Best Model
+- **Random Forest** — 77.6% accuracy
+- **XGBoost (default)** — 76.04% accuracy  
+- **XGBoost (tuned with GridSearchCV)** — 77.6% accuracy ✅ Best Model
+
+> Data cleaning improved model accuracy by replacing invalid zero values in medical columns (Glucose, BloodPressure, SkinThickness, Insulin, BMI) with median values.
 
 ## 🛠️ Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
